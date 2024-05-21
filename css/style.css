@@ -76,7 +76,8 @@ ol {
 li {
     padding: 5px;
     color: hsl(24, 5%, 18%);
-    line-height: 25px;
+    line-height: 30px;
+    padding-top: 10px;
 }
 
 li::marker {
@@ -107,8 +108,13 @@ tr:first-child, tr:last-child {
     border-width: 0;
 }
 
+.nutrition {
+    padding-bottom: 60px;
+}
+
 .nutrition-table {
     line-height: 40px;
+    margin-top: 20px;
 }
 
 td {
